@@ -21,9 +21,13 @@ Important Files and Information:
 
 -File "Emails.xlsx" contains the name, store, and email of each manager. Note: I suggest replacing the email column of each manager with your own email for testing purposes.
 
--File "Vendas.xlsx" contains sales data for all stores. Note: Each manager should only receive the One Page and an attached Excel file with the sales data for their specific store. Information from other stores should not be sent to managers who are not responsible for those stores.
+-File "Sales.xlsx" contains sales data for all stores. Note: Each manager should only receive the One Page and an attached Excel file with the sales data for their specific store. Information from other stores should not be sent to managers who are not responsible for those stores.
 
--File "Lojas.csv" contains the name of each store.
+-File "Stores.csv" contains the name of each store.
+
+- "Emails.xlsx", "Sales.xlsx" and "Stores.csv" must be in a folder named "stores_datasets"
+
+- Must have a folder named "backup_stores_files" in the same location as "stores_datasets" folder
 
 -At the end, your routine should also send an email to the management (information is also in the "Emails.xlsx" file) with two rankings attached: a daily ranking and an annual ranking of the stores. Additionally, in the body of the email, highlight the best and worst-performing stores of the day and the best and worst-performing stores of the year. Store rankings are based on revenue.
 
